@@ -80,8 +80,8 @@ streamlit run app.py
 ```
 MindEaseAI/
 │── stress_analysis.py          # List of dependencies
-│── app.py                      # Streamlit application script
 │── langchain_mistral_setup     # Langchain Community Setup
+│── app.py                      # Streamlit application script
 │── README.md                   # Project documentation
 ```
 
