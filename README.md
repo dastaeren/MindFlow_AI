@@ -35,8 +35,6 @@ pip install pandas seaborn matplotlib scikit-learn imblearn joblib streamlit tra
 
 Sign up at [Hugging Face](https://huggingface.co/) and Google Gemini to get API keys.
 
-Create a `.env` file in your project directory and add your API key:
-
 ```
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
@@ -61,10 +59,10 @@ Execute the following command in your terminal:
 streamlit run app.py
 ```
 
-If you need to access the app remotely, use LocalTunnel:
+
 
 ```sh
-npx localtunnel --port 8501
+
 ```
 
 ---
@@ -81,11 +79,10 @@ npx localtunnel --port 8501
 
 ```
 MindEaseAI/
-│── app.py                 # Streamlit application script
-│── requirements.txt       # List of dependencies
-│── journal_entries.json   # Stores journal entries
-│── .env                   # Stores API keys
-│── README.md              # Project documentation
+│── stress_analysis.py          # List of dependencies
+│── app.py                      # Streamlit application script
+│── langchain_mistral_setup     # Langchain Community Setup
+│── README.md                   # Project documentation
 ```
 
 ---
