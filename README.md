@@ -101,14 +101,6 @@ MindEaseAI/
 
 ---
 
-## Future Enhancements
-
-- Implement user authentication for secure journal entries
-- Expand model support for additional NLP tasks
-- Store journal data in a database for better scalability
-
----
-
 ## Acknowledgments
 
 - OpenAI for the NLP support
